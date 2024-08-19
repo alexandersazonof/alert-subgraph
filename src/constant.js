@@ -21,7 +21,7 @@ const BLOCKCHAIN_SUBGRAPH = {
   [BLOCKCHAIN.POLYGON]: 'l2-polygon-test',
   [BLOCKCHAIN.ARBITRUM]: 'harvest-arbitrum',
   [BLOCKCHAIN.BASE]: 'harvest-base',
-  [BLOCKCHAIN.ZK_SYNC]: 'l2-zksync-era',
+  [BLOCKCHAIN.ZK_SYNC]: 'harvest-zksync',
 }
 
 function getBlockchainRpcUrl(blockchain) {
