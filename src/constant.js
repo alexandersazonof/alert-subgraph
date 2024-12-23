@@ -4,6 +4,7 @@ const BLOCKCHAIN = {
   ETHEREUM: 'ETHEREUM',
   POLYGON: 'POLYGON',
   ARBITRUM: 'ARBITRUM',
+  ARBITRUM_PLASMA_USDC: 'ARBITRUM_PLASMA_USDC',
   BASE: 'BASE',
   ZK_SYNC: 'ZK_SYNC',
 };
@@ -11,6 +12,7 @@ const BLOCKCHAIN = {
 const BLOCHAIN_RPC = {
   [BLOCKCHAIN.ETHEREUM]: 'https://eth.drpc.org',
   [BLOCKCHAIN.POLYGON]: 'https://polygon.drpc.org',
+  [BLOCKCHAIN.ARBITRUM_PLASMA_USDC]: 'https://arbitrum.llamarpc.com',
   [BLOCKCHAIN.ARBITRUM]: 'https://arbitrum.llamarpc.com',
   [BLOCKCHAIN.BASE]: 'https://base.drpc.org',
   [BLOCKCHAIN.ZK_SYNC]: 'https://mainnet.era.zksync.io',
@@ -20,6 +22,7 @@ const BLOCKCHAIN_SUBGRAPH = {
   [BLOCKCHAIN.ETHEREUM]: 'harvest-mainnet-test',
   [BLOCKCHAIN.POLYGON]: 'l2-polygon-test',
   [BLOCKCHAIN.ARBITRUM]: 'harvest-arbitrum',
+  [BLOCKCHAIN.ARBITRUM_PLASMA_USDC]: 'harvest-plasma-usdc-arbitrum',
   [BLOCKCHAIN.BASE]: 'harvest-base',
   [BLOCKCHAIN.ZK_SYNC]: 'harvest-zksync',
 }
